@@ -50,13 +50,18 @@ Timer_B0 generates a periodic tick intended to be approximately **10 ms** under 
 1. Install Texas Instruments Code Composer Studio with MSP430 device/compiler support.
 2. Import the directory containing `.project`, `.cproject`, and `.ccsproject` as an existing CCS project.
 3. Select or verify the MSP430FR2355 target and your debugger configuration.
-4. Build, flash, and debug on the intended hardware.
+4. Confirm the `src/` C files are included in the project build and `include/` appears under MSP430 Compiler include options for both Debug and Release.
+5. Build, flash, and debug on the intended hardware.
 
 **Note:** This is an archived classroom project. The included CCS configuration originated in a specific local installation and may need toolchain, device package, or project-path adjustments on another computer. The repository has **not** been rebuilt or hardware-tested as part of this packaging step.
 
 ## Repository contents
 
 The original CCS project files and source organization are retained to make importing easier. `Debug/` and editor caches are excluded. The bundled `driverlib/` sources are Texas Instruments code and retain their original copyright and redistribution notices.
+
+## Technical report
+
+[Read the complete LED Control System project report](docs/LED%20Control%20System%20-%20Jake%20Stanley.pdf), including the circuit diagram, state machine, and firmware documentation.
 
 ## Attribution
 
