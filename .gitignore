@@ -1,0 +1,12 @@
+Debug/
+Release/
+**/.clangd/
+*.obj
+*.d
+*.out
+*.map
+*.elf
+*.hex
+*.bin
+*.log
+.metadata/
